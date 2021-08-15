@@ -3,11 +3,7 @@ import Avatar from 'react-avatar'
 import { Link } from 'react-scroll'
 import ProfilePic from '../images/profile-pic.jpg'
 
-import { faCodepen } from "@fortawesome/free-brands-svg-icons";
-import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookSquare, faCodepen, faInstagram, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

@@ -2,10 +2,7 @@ import React from 'react'
 import Avatar from 'react-avatar'
 import ProfilePic from '../images/profile-pic.jpg'
 
-import { faDove, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import { faMapMarkerAlt, faPhone, faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function About() {
@@ -25,7 +22,7 @@ function About() {
             I am passionate about ideating, conceptualizing and producing consumer-centric as well as technology-enabled products from level zero. Open for exploring exciting full-stack development opportunities in startups as well as companies with scale.
           </p>
         </div>
-        <div className="contact mt-5">
+        <div className="contact-details mt-5">
           <h4>Contact details</h4>
           <div className="row mt-3 mx-auto d-flex align-items-center">
             <p className="col-md-3 col-12">

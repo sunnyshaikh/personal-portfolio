@@ -5,6 +5,7 @@ import Home from './components/Home';
 import SideBar from './components/SideBar';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Portfolio from './components/Portfolio';
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -24,6 +25,9 @@ function App() {
           </section>
           <section className="home-container" id="about">
             <About />
+          </section>
+          <section className="portfolio-container" id="portfolio">
+            <Portfolio />
           </section>
         </div>
       </div>
