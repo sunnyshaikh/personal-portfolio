@@ -47,7 +47,7 @@ body {
   height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  box-shadow: 4px 8px 16px var(--dark-box-shadow);
+  /* box-shadow: 4px 8px 16px var(--dark-box-shadow); */
   white-space: nowrap;
   transition: .5s ease;
 }
@@ -114,21 +114,24 @@ section {
 
 section > div {
   background: var(--dark-content-bg);
-  height: 100%;
   border-radius: 1rem;
-  box-shadow: 4px 8px 16px var(--dark-box-shadow);
+  /* box-shadow: 4px 8px 16px var(--dark-box-shadow); */
   padding: 1.35rem;
+  /* border: 2px solid #292929; */
+}
+
+.home {
+  height: 100%;
 }
 
 
 @media screen and (max-width: 640px) {
-  
   .content {
     padding: 0rem !important;
   }
   .sidebar-container, 
   section {
-    padding: 0.25rem !important
+    padding: 0.5rem !important
   }
 
   .sidebar-container {

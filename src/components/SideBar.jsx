@@ -8,6 +8,7 @@ import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import ReactTypingEffect from 'react-typing-effect';
@@ -56,7 +57,7 @@ function SideBar() {
           <a href="./"><FontAwesomeIcon icon={faGithub} /></a>
           <a href="./"><FontAwesomeIcon icon={faCodepen} /></a>
         </div>
-        <p className="mt-2 text-secondary">Made with 🤍, {new Date().getFullYear()}</p>
+        <p className="mt-2 text-secondary">Made with <FontAwesomeIcon icon={faHeart} />, {new Date().getFullYear()}</p>
       </footer>
     </div>
   )
