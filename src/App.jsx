@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import About from './components/About';
+import Skill from './components/Skill';
 import Home from './components/Home';
 import SideBar from './components/SideBar';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -25,6 +26,9 @@ function App() {
           </section>
           <section className="home-container" id="about">
             <About />
+          </section>
+          <section className="skills-container" id="skills">
+            <Skill />
           </section>
           <section className="portfolio-container" id="portfolio">
             <Portfolio />

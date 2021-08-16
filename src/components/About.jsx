@@ -1,13 +1,14 @@
 import React from 'react'
 import Avatar from 'react-avatar'
 import ProfilePic from '../images/profile-pic.jpg'
+import CV from '../cv/cv-altafalam.pdf'
 
 import { faMapMarkerAlt, faPhone, faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function About() {
   return (
-    <div className="about text-center">
+    <div className="about text-center pt-4">
       <h3 className="section-title">About me</h3>
       <div className="container mt-5">
         <div className="avatar p-2 border d-inline-block" style={{ borderRadius: '50%' }}>
@@ -39,7 +40,7 @@ function About() {
               <a href="mailto:altafalamshaikh55@gmail.com" className="text-decoration-none" style={{ color: 'hsl(0, 0%, 64%)' }}>altafalamshaikh55@gmail.com</a>
             </p>
             <p className="col-md-3">
-              <a href="./" className="btn btn-primary">
+              <a href={CV} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                 <FontAwesomeIcon icon={faDownload} className="me-2" />
                 Download CV
               </a>
