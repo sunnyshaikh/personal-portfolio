@@ -7,13 +7,14 @@ import SideBar from './components/SideBar';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 function App() {
   const [toggle, setToggle] = useState(false);
 
   return (
     <div className={`wrapper position-relative ${toggle && 'active'}`}>
-      <button className="hamburger position-fixed d-block d-md-none" onClick={() => setToggle(!toggle)}>
+      <button className="hamburger position-fixed d-block d-md-none bg-dark" onClick={() => setToggle(!toggle)}>
         <FontAwesomeIcon icon={faBars} />
       </button>
       <div className="container-fluid p-0 position-relative d-flex" style={{ height: '100vh' }}>
@@ -32,6 +33,9 @@ function App() {
           </section>
           <section className="portfolio-container" id="portfolio">
             <Portfolio />
+          </section>
+          <section className="contact-container" id="contact">
+            <Contact />
           </section>
         </div>
       </div>

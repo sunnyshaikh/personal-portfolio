@@ -44,9 +44,9 @@ function SideBar() {
           <li className="nav-item">
             <Link to="portfolio" spy={true} className="nav-link" activeClass="active" onClick={handleClick}>Portfolio</Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to="contact" spy={true} className="nav-link" activeClass="active" onClick={handleClick}>Contact</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       <footer className="mt-auto">

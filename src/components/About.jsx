@@ -29,7 +29,7 @@ function About() {
           <div className="row mt-3 d-flex align-items-center">
             <p className="col-md-3">
               <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
-              <span style={{ color: 'hsl(0, 0%, 64%)' }}>Bhosari, Pune-411039</span>
+              <span style={{ color: 'hsl(0, 0%, 64%)' }}>Pune, Maharashtra</span>
             </p>
             <p className="col-md-3">
               <FontAwesomeIcon icon={faPhone} className="me-2" />
