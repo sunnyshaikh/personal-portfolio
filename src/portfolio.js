@@ -24,4 +24,25 @@ export const portfolios = [
     desc: 'Created with Php and MySql where users can play quiz on various topics related to programming.',
     souceLink: './'
   },
+  {
+    id: 4,
+    img: `${SortingVisual}`,
+    title: 'Sorting Visualizer',
+    desc: 'A web app built with JavaScript which shows various sorting algorithms in animation.',
+    souceLink: './'
+  },
+  {
+    id: 5,
+    img: `${CoronaTracker}`,
+    title: 'Corona Tracker',
+    desc: 'A web app built with React Js which shows covid status from different countries like active cases, recovered and loss of lives.',
+    souceLink: './'
+  },
+  {
+    id: 6,
+    img: `${Quiz}`,
+    title: 'Online Quiz System',
+    desc: 'Created with Php and MySql where users can play quiz on various topics related to programming.',
+    souceLink: './'
+  },
 ]

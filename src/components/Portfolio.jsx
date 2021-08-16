@@ -3,13 +3,13 @@ import { portfolios } from '../portfolio'
 
 function Card({ img, title, desc, link }) {
   return (
-    <div class="col-lg-4 mb-4">
-      <div class="card bg-dark" style={{ height: '100%' }}>
-        <img src={img} class="card-img-top" alt={title} />
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">{title}</h5>
-          <p class="card-text mb-4" style={{ color: 'hsl(0 0% 64%)' }}>{desc}</p>
-          <a href={link} class="btn btn-outline-primary btn-sm mt-auto">Source code</a>
+    <div className="col-12 col-md-4 mb-4">
+      <div className="card bg-dark" style={{ height: '100%' }}>
+        <img src={img} className="card-img-top" alt={title} />
+        <div className="card-body d-flex flex-column">
+          <h5 className="card-title">{title}</h5>
+          <p className="card-text mb-4" style={{ color: 'hsl(0 0% 64%)' }}>{desc}</p>
+          <a href={link} className="btn btn-outline-primary btn-sm mt-auto">Source code</a>
         </div>
       </div>
     </div>
@@ -24,7 +24,7 @@ function Portfolio() {
         <div className="row">
           {portfolios.map(p => (
             <Card
-              key={p.key}
+              key={p.id}
               img={p.img}
               title={p.title}
               desc={p.desc}
