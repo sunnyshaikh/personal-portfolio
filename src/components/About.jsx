@@ -8,9 +8,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function About() {
   return (
-    <div className="about text-center pt-4">
-      <h3 className="section-title">About me</h3>
-      <div className="container mt-5">
+    <div className="about pt-4">
+      <h3 className="section-title text-center">About me</h3>
+      <div className="container mt-5 text-center">
         <div className="avatar p-2 border d-inline-block" style={{ borderRadius: '50%' }}>
           <Avatar src={ProfilePic} size={200} round={true} />
         </div>
