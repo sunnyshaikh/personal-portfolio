@@ -44,6 +44,10 @@ function SideBar() {
           <li className="nav-item">
             <Link to="portfolio" spy={true} className="nav-link" activeClass="active" onClick={handleClick}>Portfolio</Link>
           </li>
+          <hr style={{ margin: '.5rem' }} />
+          <li className="nav-item">
+            <a href="https://techwise-code.blogspot.com/" className="nav-link" target="_blank" rel="noopener noreferrer">Visit my Blog</a>
+          </li>
           {/* <li className="nav-item">
             <Link to="contact" spy={true} className="nav-link" activeClass="active" onClick={handleClick}>Contact</Link>
           </li> */}
