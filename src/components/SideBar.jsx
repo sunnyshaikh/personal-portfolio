@@ -57,7 +57,7 @@ function SideBar() {
         <div className="social mt-4 mt-md-0">
           <a href="https://facebook.com/makewebattractive" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebookSquare} /></a>
           <a href="https://instagram.com/__techwise" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
-          <a href="https://linkedin.com/in/altafalam-shaikh-640809160" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+          <a href="https://linkedin.com/in/altaf-alam-shaikh" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
           <a href="https://github.com/sunnyshaikh" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
           <a href="https://codepen.io/sunnyshaikh99/pens/public" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faCodepen} /></a>
         </div>
