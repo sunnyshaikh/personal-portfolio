@@ -1,7 +1,7 @@
 import React from 'react'
 import Avatar from 'react-avatar'
 import ProfilePic from '../images/profile-pic.jpg'
-import CV from '../cv/cv-altafalam.pdf'
+import CV from '../cv/resume-altaf.pdf'
 
 import { faMapMarkerAlt, faPhone, faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

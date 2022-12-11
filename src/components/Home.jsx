@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { faUserAlt, faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-scroll'
-import CV from '../cv/cv-altafalam.pdf'
+import CV from '../cv/resume-altaf.pdf'
 
 function Home() {
   const [greet, setGreet] = useState('')
