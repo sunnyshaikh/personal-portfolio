@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes float {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    background-color: rgba(99, 102, 241, 0.5);
+  }
+  25% {
+    transform: translate(-40%, -60%) rotate(90deg) scale(1.2);
+    background-color: rgba(167, 139, 250, 0.5);
+  }
+  50% {
+    transform: translate(-60%, -40%) rotate(180deg) scale(0.8);
+    background-color: rgba(236, 72, 153, 0.5);
+  }
+  75% {
+    transform: translate(-40%, -40%) rotate(270deg) scale(1.4);
+    background-color: rgba(14, 165, 233, 0.5);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(1);
+    background-color: rgba(99, 102, 241, 0.5);
+  }
+}
