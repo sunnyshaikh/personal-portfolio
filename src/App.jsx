@@ -9,7 +9,7 @@ import VerticalMail from "./components/VerticalMail";
 
 const App = () => {
   return (
-    <main className="relative h-screen text-white bg-[#09090b]">
+    <main className="relative h-screen text-white bg-[#09090b] overflow-x-hidden">
       <Navbar />
       <VeritcalComponent position={"right"}>
         <VerticalMail />
@@ -35,7 +35,7 @@ const App = () => {
           </h1>
 
           {/* sub title */}
-          <p className="mt-6 text-xl">
+          <p className="mt-6 text-lg sm:text-xl">
             Transforming Concepts into Seamless User Experiences.
           </p>
 

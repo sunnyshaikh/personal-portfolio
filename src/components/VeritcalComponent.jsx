@@ -11,7 +11,7 @@ import PropTypes from "prop-types";
 const VeritcalComponent = ({ children, position }) => {
   return (
     <div
-      className={`z-10 fixed bottom-0 ${
+      className={`hidden sm:block z-10 fixed bottom-0 ${
         position === "left" ? "pl-10" : "pr-10 right-0"
       }`}
     >
