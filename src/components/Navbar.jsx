@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import HamburgerMenu from "./HamburgerMenu";
 
 const menu = [
-  { id: 1, title: "Home" },
-  { id: 2, title: "About" },
-  { id: 3, title: "Education" },
-  { id: 4, title: "Projects" },
-  { id: 5, title: "Contact" },
+  { id: 1, title: "Home", href: "#home" },
+  { id: 2, title: "About", href: "#about" },
+  { id: 3, title: "Education", href: "#education" },
+  { id: 4, title: "Projects", href: "#projects" },
+  { id: 5, title: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
         {menu.map((item) => (
           <li key={item.id}>
             <a
-              href="#"
+              href={item.href}
               className="inline-block py-2 px-3 text-gray-300 hover:text-indigo-300 transition"
             >
               {item.title}
@@ -42,7 +42,7 @@ const Navbar = () => {
           {menu.map((item) => (
             <li key={item.id}>
               <a
-                href="#"
+                href={item.href}
                 className="block py-2 px-3 text-gray-300 hover:text-indigo-300 transition rounded"
               >
                 {item.title}
