@@ -5,8 +5,9 @@ const menu = [
   { id: 1, title: "Home", href: "#home" },
   { id: 2, title: "About", href: "#about" },
   { id: 3, title: "Education", href: "#education" },
-  { id: 4, title: "Projects", href: "#projects" },
-  { id: 5, title: "Contact", href: "#contact" },
+  { id: 4, title: "Skills", href: "#skills" },
+  { id: 5, title: "Projects", href: "#projects" },
+  { id: 6, title: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {

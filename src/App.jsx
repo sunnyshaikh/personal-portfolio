@@ -4,10 +4,11 @@ import VeritcalComponent from "./components/VeritcalComponent";
 import VerticalMail from "./components/VerticalMail";
 import Hero from "./pages/Hero";
 import Education from "./pages/Education";
+import Skills from "./pages/Skills";
 
 const App = () => {
   return (
-    <main className="relative h-screen text-white bg-[#09090b] overflow-x-hidden">
+    <main className="relative h-screen text-white bg-[#09090b] overflow-x-hidden scroll-smooth">
       <Navbar />
       <VeritcalComponent position={"right"}>
         <VerticalMail />
@@ -21,6 +22,9 @@ const App = () => {
 
       {/* Education */}
       <Education />
+
+      {/* Skills */}
+      <Skills />
     </main>
   );
 };
