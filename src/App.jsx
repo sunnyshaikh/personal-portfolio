@@ -5,6 +5,8 @@ import VerticalMail from "./components/VerticalMail";
 import Hero from "./pages/Hero";
 import Education from "./pages/Education";
 import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contacts";
 
 const App = () => {
   return (
@@ -25,6 +27,12 @@ const App = () => {
 
       {/* Skills */}
       <Skills />
+
+      {/* Projects */}
+      <Projects />
+
+      {/* Contact */}
+      <Contact />
     </main>
   );
 };
