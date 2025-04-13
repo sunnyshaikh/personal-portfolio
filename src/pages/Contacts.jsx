@@ -106,7 +106,7 @@ function Contact() {
                 </a>
 
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/altaf-alam-shaikh/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center gap-4 p-4 bg-gray-900/50 rounded-xl transition-all duration-300 hover:bg-gray-900/70"
