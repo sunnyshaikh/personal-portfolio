@@ -30,11 +30,13 @@ const Hero = () => {
 
         {/* cta button */}
         <div className="mt-16">
-          <GradientButton>
-            <span className="flex gap-2 items-center">
-              Show my work <FaLocationArrow />
-            </span>
-          </GradientButton>
+          <a href="#projects">
+            <GradientButton>
+              <span href="#projects" className="flex gap-2 items-center">
+                Show my work <FaLocationArrow />
+              </span>
+            </GradientButton>
+          </a>
         </div>
       </div>
     </section>
