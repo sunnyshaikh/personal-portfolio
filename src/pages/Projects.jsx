@@ -1,28 +1,27 @@
-import React from "react";
 import { CiStar } from "react-icons/ci";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import Blogify from "../assets/projects-ss/blogify.png";
+import SortingVisual from "../assets/projects-ss/sorting-visual.png";
 
 const projects = [
   {
     title: "E-Commerce Platform",
     description:
-      "A full-stack e-commerce platform with real-time inventory management and secure payment processing.",
-    tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
-    image:
-      "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1000",
-    github: "https://github.com",
-    live: "https://demo.com",
+      "A full-stack blog application with secured authentication and authorization system with JWT and Bcrypt js.",
+    tech: ["React", "Node.js", "Express.js", "MongoDB"],
+    image: Blogify,
+    github: "https://github.com/sunnyshaikh/blogify",
+    live: "https://blogifymern.netlify.app/",
     featured: true,
   },
   {
-    title: "AI Chat Application",
+    title: "Sorting Visualizer",
     description:
-      "Real-time chat application powered by AI for smart responses and language translation.",
-    tech: ["React", "OpenAI", "WebSocket", "Redis"],
-    image:
-      "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?auto=format&fit=crop&q=80&w=1000",
-    github: "https://github.com",
-    live: "https://demo.com",
+      "A web app built with JavaScript which shows various sorting algorithms in animation.",
+    tech: ["Javascript", "Promises"],
+    image: SortingVisual,
+    github: "https://github.com/sunnyshaikh/sorting-visualizer",
+    live: "https://sunnyshaikh.github.io/sorting-visualizer/",
     featured: true,
   },
   {
