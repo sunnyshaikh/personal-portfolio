@@ -5,7 +5,7 @@ import SortingVisual from "../assets/projects-ss/sorting-visual.png";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Blogify",
     description:
       "A full-stack blog application with secured authentication and authorization system with JWT and Bcrypt js.",
     tech: ["React", "Node.js", "Express.js", "MongoDB"],
